@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class ExceptionDemo12 {
     public static void main(String[] args) {
         // 键盘录入学生的姓名和年龄,其中年龄为 18 - 25岁,
+// 分支
         // 超出这个范围是异常数据不能赋值.需要重新录入,一直录到正确为止。
         Student student = new Student();
         Scanner sc = new Scanner(System.in);
